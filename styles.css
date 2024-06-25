@@ -209,6 +209,10 @@ body:not(.disable-folder-highlight) .tree-item-self.fn-is-active {
 
 /* File explorer & path styles */
 
+.folder-note- {
+    align-content: start;
+}
+
 .folder-note-underline .has-folder-note .nav-folder-title-content {
     text-decoration-line: underline;
     text-decoration-color: var(--text-faint);
@@ -251,3 +255,4 @@ body:not(.disable-folder-highlight) .tree-item-self.fn-is-active {
     box-shadow: var(--shadow-s);
     z-index: var(--layer-notice);
 }
+
